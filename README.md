@@ -31,7 +31,7 @@ Comprehensive assembly details are available in the [Manual](Manual/Assembly_Man
 
 1. Update your `printer.cfg` as recommended in [Tap Klipper Instructions](config/tap_klipper_instructions.md)
 2. Home Z and test virtual Z endstop by lifting tool-head
-3. Heat soak your machine and run a couple `probe_accuracy samples=100` to "break-in" your probe
+3. Heat soak your machine (80c BED) (150c HOTEND) and run a couple `probe_accuracy samples=100` to "break-in" your probe
 4. Run a few more `probe_accuracy` checks (default of 10 probes)
 
 For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation.
